@@ -125,13 +125,13 @@ end
 
 addEventHandler("onClientResourceStart", resourceRoot, function()
     camHandler = getCamera()
-    --createSnow()
+    createSnow()
 end)
 
-addCommandHandler("snow1", function()
+--[[addCommandHandler("snow1", function()
     createSnow()
 end)
 
 addCommandHandler("dsnow1", function()
     destroySnow()
-end)
+end)]]
